@@ -11,32 +11,39 @@ A newspaper front page, 1024×1024 PNG, drawn with Python Pillow
 (crisp text, no AI-generated image). It sums up Thursday 26 November 2026
 in six verified stories:
 
-1. **Top story — Russia's own figures: nearly 500,000 lost in the war.**
-   Moscow's own count puts its losses near half a million; a Russian strike
-   on flats in Zaporizhzhia killed two and wounded 40+, and Kyiv says it
-   needs $125bn of outside help in 2027.
-2. **Trade — U.S. set to unveil new global tariff plan.** Washington
-   prepares tariffs on trading partners, including China, the EU and Brazil,
-   over subsidised production.
-3. **China — Xi's graft probe topples a Shanghai rising star.** A
-   corruption inquiry into a rising Shanghai official upends the usual path
-   to power in Beijing.
-4. **Colombia — Police free 20 hostages after a 17-hour siege.** Officers
-   stormed a supermarket and freed 20 people held hostage for 17 hours.
-5. **Hong Kong — One year on, city mourns 168 fire dead.** Survivors
-   returned to Wang Fuk Court in Tai Po a year after the blaze that killed
-   168 people.
-6. **Space — Close-ups due of the asteroid we hit to test Earth's
-   defences.** A spacecraft returns to Dimorphos, the asteroid deliberately
-   struck to test whether Earth can be shielded.
+1. **Top story — Trump unveils sweeping new tariffs on 14 partners.**
+   Washington proposes 20% duties on Chinese goods — up to 40% if the
+   trade truce fails — and 15% on the EU, Japan, South Korea and Taiwan,
+   in a Section 301 salvo a day before Thanksgiving. Markets slide.
+   (Reuters, Associated Press)
+2. **Weather — Thanksgiving storm slams 250 million Americans.** Heavy
+   rain, 60–70 mph gusts and coastal flooding hit the East Coast on
+   Thanksgiving Day itself, grounding the Macy's parade balloons and
+   delaying thousands of flights. (Fox Weather)
+3. **Gaza — Israel kills a second Hamas security chief in a day.**
+   Mohammad Abuelouf dies with his wife and two daughters in a Gaza City
+   strike, a day after Naeem Abu Nahel was killed — straining the fragile
+   ceasefire. (Reuters, Al Jazeera)
+4. **Lebanon — Second airport to open at Kleiat.** The disused northern
+   airbase takes flights to Turkey, Egypt and Jordan next month — a
+   $5–6m project that signals Hezbollah's fading grip on the north.
+   (Reuters)
+5. **Labour — Bangladesh raises garment pay 36% after protests.** The
+   minimum wage rises to 17,000 taka a month, but workers who demanded
+   it be doubled call the smallest rise in a decade too little — and
+   keep protesting. (Associated Press)
+6. **South Africa — Ramaphosa wins court fight; impeachment falls away.**
+   The Western Cape High Court throws out the Phala Phala panel report,
+   ending the impeachment process over $580,000 in cash stolen from the
+   president's farm sofa. (Sowetan, The Irish Times)
 
 ## How it works
 
 `main.py` (Python 3.13, standard library only) copies `entry.png`
 from this repository to `$MAKEFUN_OUTPUT_DIR/entry.png`
-(default `/output/entry.png`). It checks the file exists, is a PNG, and
-verifies the output matches the source. No network. The output bytes are
-exactly the bytes of `entry.png`, so two runs are byte-identical.
+(default `/output/entry.png`). It checks the file exists, is a PNG,
+and verifies the output matches the source. No network. The output bytes
+are exactly the bytes of `entry.png`, so two runs are byte-identical.
 
 ## Run it
 
